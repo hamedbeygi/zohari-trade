@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div class="item" @click="$emit('clicked')">
     <img src="@/assets/pic.jpg" alt="pic" />
     <slot name="header"></slot>
     <slot name="desc"></slot>
@@ -8,8 +8,8 @@
 
 <style scoped>
 img {
-  height: 20em;
-  width: 20em;
+  height: auto;
+  max-width: 100%;
   border-radius: 0.2em;
 }
 .item {

@@ -1,5 +1,5 @@
 <template>
-  <button :class="mode">
+  <button :class="mode" v-on="$listeners">
     <slot></slot>
   </button>
 </template>
@@ -12,8 +12,6 @@ export default {
 
 <style scoped>
 button {
-  background-color: var(--second);
-  color: var(--sixth);
   font-family: inherit;
   padding: 0.7em;
   border: none;
@@ -21,8 +19,20 @@ button {
   cursor: pointer;
   border-radius: 0.3em;
 }
-button:hover {
+.primary {
+  background-color: var(--second);
+  color: var(--sixth);
+}
+.primary:hover {
   background-color: var(--sixth);
   color: var(--second);
+}
+.secondary {
+  background-color: var(--sixth);
+  color: var(--second);
+}
+.secondary:hover {
+  background-color: var(--second);
+  color: var(--sixth);
 }
 </style>

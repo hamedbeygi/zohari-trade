@@ -1,14 +1,16 @@
 <template>
-  <ul>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-    <li><h4>Menu item</h4></li>
-  </ul>
+  <div>
+    <ul>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+      <li><h4>Menu item</h4></li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
